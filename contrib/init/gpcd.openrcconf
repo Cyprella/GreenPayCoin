@@ -1,0 +1,26 @@
+# /etc/conf.d/gpcd: config file for /etc/init.d/gpcd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/gpc/gpc.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/gpcd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/gpcd.pid"
+
+# Where to write gpcd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/gpcd"
+
+# User and group to own gpcd process
+#BITCOIND_USER="gpc"
+#BITCOIND_GROUP="gpc"
+
+# Path to gpcd executable
+#BITCOIND_BIN="/usr/bin/gpcd"
+
+# Nice value to run gpcd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

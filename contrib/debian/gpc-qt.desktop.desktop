@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Greenpaycoin
+Comment=Greenpaycoin P2P Cryptocurrency
+Exec=gpc-qt %u
+Terminal=false
+Type=Application
+Icon=gpc128
+MimeType=x-scheme-handler/gpc;
+Categories=Office;Finance;
+Name[ru]=gpc-qt.desktop
