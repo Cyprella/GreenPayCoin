@@ -137,11 +137,12 @@
     }
 
     QTabBar::tab:selected {
-        background: #333;
+        background: #4fed60;
     }
 
     QTabBar::tab:!selected {
         background: #333;
+        color: #fff;
     }
 
     QTabBar::tab:!selected:hover {
@@ -259,11 +260,12 @@
 
     QTableView::item { /* Table Item */
     background-color:#000;
+    color:#ade9b3;
     font-size:12px;
     }
 
     QTableView::item:selected { /* Table Item Selected */
-    background-color:#efe0a8;
+    background-color:#ade9b3;
     color:#000000;
     }
 
@@ -1617,12 +1619,12 @@
 
     QWidget#MasternodeList .QTableWidget{
     border: 1px solid #4fed60;
-    background-color: #000;
+    background-color: #333;
     }
 
     QWidget#MasternodeList .QTabWidget:pane{
     border-bottom: 0px none;
-    background-color: #000;
+    background-color: #333;
     }
 
 

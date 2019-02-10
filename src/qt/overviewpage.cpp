@@ -318,11 +318,11 @@ void OverviewPage::updateMasternodeInfo()
    std::vector<CMasternode> vMasternodes = mnodeman.GetFullMasternodeVector();
     for(auto& mn : vMasternodes)
     {
-      
+     mn1++;
 
     }
-    totalmn=mn1;
-    ui->graphMN1->setMaximum(totalmn);
+
+    ui->graphMN1->setMaximum(mn1);
     ui->graphMN1->setValue(mn1);
 
     if(timerinfo_mn->interval() == 1000)
@@ -346,7 +346,7 @@ void OverviewPage::updatBlockChainInfo()
 
     ui->label_CurrentBlock_value->setText(QString::number(CurrentBlock));
     ui->label_CurrentBlockReward_value->setText(QString::number(BlockRewardGPC));
-   
+
   }
 }
 
